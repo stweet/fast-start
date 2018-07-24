@@ -1,0 +1,20 @@
+/* css file */
+
+body {
+    background-color: white;
+    font-family: Arial;
+    margin: 70px 0 0 0;
+    color: #777;
+    padding: 0;
+}
+
+body .container {
+    text-align: center;
+    width: 769px;
+    margin: auto;
+}
+
+body .container img {
+    border: 1px white solid;
+    box-shadow: 0px 1px 3px lightgrey;
+}
