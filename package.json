@@ -1,32 +1,33 @@
 {
-  "name": "fast-start",
-  "author": "stweet",
-  "version": "1.0.0",
-  "description": "Light web-server on javascript for fast start.",
-  "main": "server/index.js",
-  "scripts": {
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stweet/fast-start.git"
-  },
-  "keywords": [],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/stweet/fast-start/issues"
-  },
-  "homepage": "https://github.com/stweet/fast-start#readme",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "cookie-parser": "^1.4.3",
-    "ejs": "^2.6.1",
-    "express": "^4.16.3"
-  },
-  "devDependencies": {
-    "@types/body-parser": "^1.17.0",
-    "@types/cookie-parser": "^1.4.1",
-    "@types/ejs": "^2.6.0",
-    "@types/express": "^4.16.0",
-    "@types/node": "^10.5.2"
-  }
+    "name": "fast-start",
+    "author": "stweet",
+    "version": "1.0.0",
+    "description": "Light web-server on javascript for fast start.",
+    "main": "server/index.js",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stweet/fast-start.git"
+    },
+    "keywords": [],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/stweet/fast-start/issues"
+    },
+    "homepage": "https://github.com/stweet/fast-start#readme",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "cookie-parser": "^1.4.3",
+        "ejs": "^2.6.1",
+        "express": "^4.16.3",
+        "express-ws": "^4.0.0"
+    },
+    "devDependencies": {
+        "@types/body-parser": "^1.17.0",
+        "@types/cookie-parser": "^1.4.1",
+        "@types/ejs": "^2.6.0",
+        "@types/express": "^4.16.0",
+        "@types/express-ws": "^3.0.0",
+        "@types/node": "^10.5.2"
+    }
 }
